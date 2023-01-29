@@ -43,10 +43,11 @@ header{
   position: absolute; 
   width: 250px;
   top: 110px;
-  left: 30px;
-  
+  left: 30px;  
 
 }
+
+
 
 .logo{
   position: relative;
@@ -143,3 +144,74 @@ header{
 .attribution a {
   font-size: 13px;
   color: hsl(228, 45%, 44%); }
+
+
+
+
+@media (min-width:769px){
+
+  main{
+    display: grid;
+    grid-template-areas: 
+    'A B';
+  }
+
+  header{
+    grid-area: A;
+    width: 280px;
+    height: 100vh;
+  }
+
+  .backCard img{
+    width: 350px;
+    top: 390px;
+    left: 120px;
+     
+  }
+  
+  .backCard p{
+    width: 40px;
+    font-size: 20px;
+    top: 470px;
+    left: 390px;
+    color: var(--global-branco);
+  }
+  
+  .frontCard .card-front{
+    width: 350px;
+    top: 140px;
+    left: 30px;  
+  
+  } 
+  
+  .logo{
+    width: 64px;
+    top: 130px;
+    left: 60px;
+  }
+  
+  .number{
+    font-size: 24px;
+    width: 290px;
+    top: 180px;
+    left: 60px;
+    border: 1px solid black;
+  }
+  
+  .name{
+    font-size: 17px;
+    width:290px ;
+    top: 190px;
+    left: 60px;
+  }
+  .name span{
+    font-size: 15px;
+  }
+
+
+  #Information{
+    margin-top: 200px;
+    padding-left: 180px;
+  }
+  
+}
