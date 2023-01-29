@@ -19,6 +19,7 @@
 header{
   background-color: var(--Violeta-muito-escuro);
   height: 210px;
+  
 }
 
 .backCard img{
@@ -26,11 +27,12 @@ header{
   width: 250px;
   top: 30px;
   left: 100px;
-
+   
 }
 
 .backCard p{
   position: relative;
+  width: 40px;
   font-size: 15px;
   top: 88px;
   left: 290px;
@@ -42,6 +44,7 @@ header{
   width: 250px;
   top: 110px;
   left: 30px;
+  
 
 }
 
@@ -54,11 +57,10 @@ header{
 
 .number{
   display: flex;
-  justify-content: space-between;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1px;
   position: relative;
-  width: 200px;
+  width: 210px;
   top: 135px;
   left: 50px;
   color: var(--global-branco);
@@ -69,7 +71,7 @@ header{
   justify-content: space-between;
   font-size: 13px;
   position: relative;
-  width:200px ;
+  width:210px ;
   top: 140px;
   left: 50px;
   color: var(--global-branco);
@@ -81,10 +83,63 @@ header{
 
 #Information{
   margin-top: 80px;
+  padding-left: 30px;
+}
+
+#cardName,#cardNumber{
+  width: 320px;
+  margin: 5px 0 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: .1px solid gray;
+}
+
+#Information p{
+  color: var(--Violeta-muito-escuro);
+  font-size: 15px;
+}
+
+.comlementares{
+  display: flex;
+}
+
+#cardMonth,#cardYear{
+  width: 65px ;
+  padding: 10px;
+  margin: 5px 5px 15px 0px;
+  border-radius: 10px;
+  border: .1px solid gray;
+}
+
+#cardSecurity{
+  width: 170px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: .1px solid gray;
+}
+
+#confirmBtn{
+  width: 320px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: var(--Violeta-muito-escuro);
+  color: var(--global-branco);
 }
 
 
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+  width: 320px;
+  margin-left: 30px;
+}
+.attribution a {
+  font-size: 13px;
+  color: hsl(228, 45%, 44%); }
