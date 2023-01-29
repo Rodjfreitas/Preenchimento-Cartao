@@ -16,18 +16,75 @@
   /*- Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)*/
 }
 
-main{
-  display: flex;
-  flex-direction: column;
+header{
   background-color: var(--Violeta-muito-escuro);
+  height: 210px;
 }
 
-img{
-  width: 300px;
+.backCard img{
+  position: absolute; 
+  width: 250px;
+  top: 30px;
+  left: 100px;
+
+}
+
+.backCard p{
   position: relative;
+  font-size: 15px;
+  top: 88px;
+  left: 290px;
+  color: var(--global-branco);
+}
+
+.frontCard .card-front{
+  position: absolute; 
+  width: 250px;
+  top: 110px;
+  left: 30px;
 
 }
+
+.logo{
+  position: relative;
+  width: 54px;
+  top: 105px;
+  left: 50px;
+}
+
+.number{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: relative;
+  width: 200px;
+  top: 135px;
+  left: 50px;
+  color: var(--global-branco);
+}
+
+.name{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  position: relative;
+  width:200px ;
+  top: 140px;
+  left: 50px;
+  color: var(--global-branco);
+}
+.name span{
+  font-size: 13px;
+}
+
 
 #Information{
-  background-color: var(--global-branco);
+  margin-top: 80px;
 }
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
