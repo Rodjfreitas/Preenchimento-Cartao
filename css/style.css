@@ -3,4 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+}
+
+:root{
+  --fontColor-erro:hsl(0, 100%, 66%);
+  --global-branco:hsl(0, 0%, 100%);
+  --Violeta-acinzentado-claro: hsl(270, 3%, 87%);
+  --Violeta-acinzentado-escuro: hsl(279, 6%, 55%);
+  --Violeta-muito-escuro: hsl(278, 68%, 11%);
+
+  /*- Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)*/
 }
