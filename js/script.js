@@ -4,14 +4,15 @@ const inputNumber = document.querySelector('#cardNumber')
 const inputMonth = document.querySelector('#cardMonth')
 const inputYear = document.querySelector('#cardYear')
 const inputCvc = document.querySelector('#cardSecurity')
+const confirm = document.querySelector('#confirmBtn')
 
 
-inputName.addEventListener('keydown',insertName)
-inputNumber.addEventListener('keydown',insertNumber)
-inputMonth.addEventListener('keydown',insertDate)
-inputYear.addEventListener('keydown',insertDate)
-inputCvc.addEventListener('keydown',insertCVC)
-
+inputName.addEventListener('change',insertName)
+inputNumber.addEventListener('change',insertNumber)
+inputMonth.addEventListener('change',insertDate)
+inputYear.addEventListener('change',insertDate)
+inputCvc.addEventListener('change',insertCVC)
+confirm.addEventListener('click',confirmBtn)
 
 
 function insertName (){
@@ -34,4 +35,15 @@ function insertDate(){
 function insertCVC(){
   const cvc = document.querySelector('.cvc')
   cvc.innerText = inputCvc.value
+}
+
+function confirmBtn(){
+  if(inputName.value != 0 &&
+    inputNumber.value != 0 && inputMonth.value != 0 
+    && inputYear != 0 && inputCvc.value != 0){
+  alert(`Thank you! ${inputName.value} Weve added your card details Continue`)
+  location.reload()
+  }else{
+  alert('Seus dados estão incompletos')
+  }
 }
