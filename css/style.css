@@ -69,17 +69,20 @@ header{
 
 .name{
   display: flex;
-  justify-content: space-between;
-  font-size: 13px;
+  justify-content: space-between;  
   position: relative;
   width:210px ;
   top: 140px;
   left: 50px;
   color: var(--global-branco);
 }
-.name span{
+
+.name p,.month,.year{
   font-size: 13px;
 }
+
+
+
 
 
 #Information{
@@ -195,7 +198,6 @@ header{
     width: 290px;
     top: 180px;
     left: 60px;
-    border: 1px solid black;
   }
   
   .name{
