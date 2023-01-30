@@ -134,6 +134,9 @@ header{
   color: var(--global-branco);
 }
 
+#confirmBtn:hover{
+  cursor: pointer;
+}
 
 
 
